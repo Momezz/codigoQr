@@ -1,0 +1,28 @@
+html{
+    margin: 0px;
+    font-weight: 400;
+    height: 100%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    background-color: hsl(220, 15%, 55%);
+    margin: 20px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 1440px) {
+    body{
+        min-height: 100vh;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        font-weight: 700;
+    }
+}
